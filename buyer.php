@@ -18,7 +18,7 @@
                     <form action="" method="POST">
                         <div class="row register-form">
 
-                            <div class="col-md-6">
+                            <div class="col-md-12">
 
                                     <div class="form-group">
                                         <input type="text" class="form-control" placeholder="Name"name="name" value=""required/>
@@ -31,9 +31,9 @@
                                     </div>
                             
                                 
-                                </div>
+                                <!--</div>-->
 
-                                <div class="col-md-6">
+                                <!--<div class="col-md-6">-->
 
                                     <div class="form-group">
                                      <input type="text" class="form-control" placeholder="Price Range"name="price" value=""required/>
