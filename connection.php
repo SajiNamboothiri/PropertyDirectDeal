@@ -13,7 +13,7 @@ $con=mysqli_connect($server,$username,$password,$db);
 <script>
     alert('connection successful')
 </script>
-
+/*comment
 <?php
 
 
