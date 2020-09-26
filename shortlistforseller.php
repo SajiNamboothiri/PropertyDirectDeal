@@ -77,7 +77,7 @@
         </table>
 
         </div>
-        <a href="how.php">Get Contact Details</a>
+        <a href="seller.php">Register to Get Contact Details</a>
     </div>
 
 </div>
