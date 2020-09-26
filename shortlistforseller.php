@@ -77,7 +77,7 @@
         </table>
 
         </div>
-
+        <a href="how.php">Get Contact Details</a>
     </div>
 
 </div>
