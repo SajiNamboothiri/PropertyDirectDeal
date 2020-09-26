@@ -84,7 +84,7 @@
         
 
         </div>
-        <a href="buyer.php">Register to Get Contact Details</a>
+        <a href="buyer.php">Register and Get Contact Details</a>
     </div>
     
 </div>

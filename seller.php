@@ -17,11 +17,12 @@
   </head>
 
 <body>
-<!div class="container register"!>
+<!--div class="container register"-->
     <div class="row">
         <div class="col-md-12 register">
-            <!div class="tab-content" id="mytabcontent"!>
-                <!div class="tab-pane fade show active"id="home" role="tabpanel" aria-labelledby="home-tab"!>
+            <!--div class="tab-content" id="mytabcontent"-->
+                <!--div class="tab-pane fade show active"id="home" role="tabpanel" aria-labelledby="home-tab"-->
+                <!--/div!>-->
                          <h3 class="register-heading">Sell Your Property</h3>
                          
                     <form action="" method="POST">
@@ -56,6 +57,7 @@
 
                                     <input type="submit" class="btnRegister" name="submit" value="Register"/> 
                                     <a href="shortlistforseller.php">View Buyers </a>
+                                    <a href="how.php">Get Contact Details of Buyers </a>
                                     
                                                        
                             </div>
@@ -64,10 +66,10 @@
                           
                              
                 </div>
-            <!/div!>
+            <!--/div!>-->
         </div>
     </div>
-<!/div!>
+<!--/div!>-->
 
 
 </body>
@@ -93,7 +95,7 @@ if(isset($_POST['submit'])){
     if($res){
         ?>
         <script>
-            alert("Data Inserted");
+            alert("Your details have been inserted in the database. Please click on 'Get Contact Details of Buyers' button to proceed further.");
         </script>
         <?php
     }

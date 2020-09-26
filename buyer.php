@@ -7,12 +7,12 @@
   </head>
 <body>
     
-<!div class="container register"!>
+<!--div class="container register"!>-->
     <div class="row">
         
         <div class="col-md-12">
-            <!div class="tab-content" id="mytabcontent"!>
-                <!div class="tab-pane fade show active"id="home" role="tabpanel" aria-labelledby="home-tab"!>
+            <!--div class="tab-content" id="mytabcontent"!>-->
+                <!--div class="tab-pane fade show active"id="home" role="tabpanel" aria-labelledby="home-tab"!>-->
                         <h3 class="register-heading">Buy a Property</h3>
                         
                     <form action="" method="POST">
@@ -43,24 +43,26 @@
                                      <input type="text" class="form-control" placeholder="Details"name="details" value=""required/>
                                     </div>
                            
-
-                                    <input type="submit" class="btnRegister" name="submit" value="Register"/>  
-                                    <a href="shortlistforbuyer.php">View Sellers </a>        
+                                    <!--<input type="submit" class="btnRegister" onclick="how.php" name="submit" value="Register"/>-->
+                                    <!--<input type="submit" class="btnRegister" onclick="how.php" name="submit" value="Register"/>-->
+                                    <input type="submit" class="btnRegister"  name="submit" value="Register"/> 
+                                    <a href="shortlistforbuyer.php">View Sellers </a>
+                                    <a href="how.php">Get Contact Details of Sellers </a>        
                          
                             </div>
                         </div>
                         
                     </form>
                        
-                <!/div!>
-            <!/div!>
+                <!--/div!>-->
+            <!--/div!>-->
         </div>
 
         
 
         
     </div>
-<!/div!>
+<!--/div!>-->
 
 
 </body>
@@ -85,7 +87,7 @@ if(isset($_POST['submit'])){
     if($res){
         ?>
         <script>
-            alert("Data Inserted");
+            alert("Your details have been inserted in the database. Please click on 'Get Contact Details of Sellers' button to proceed further.");
         </script>
         <?php
     }

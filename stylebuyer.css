@@ -59,6 +59,7 @@
         border-radius: 5px;
         padding: 10px;
         display: inline-block;
+        margin-left: 5px;
         
     }
 
@@ -66,9 +67,9 @@
 
         background-color: rgb(51, 6, 250);
         color: #ffffff;
-        margin-left: 20px;
+        margin-left: 5px;
         margin-top: 20px;
-        margin-right: 20px;
+        margin-right: 0px;
         margin-bottom: 20px;
         display: inline-block;
         font-style: italic;
