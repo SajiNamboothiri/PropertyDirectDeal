@@ -49,7 +49,7 @@
 
                     <tr>
                         <td><?php echo "2"; ?> </td>
-                        <td><?php echo "Enter your details and click Register. Your details will go to the database and wait for activation."; ?> </td>
+                        <td><?php echo "Enter your details and click Register. Your details will go to the database and wait for approval."; ?> </td>
                     </tr>
 
                     <tr>
@@ -83,7 +83,7 @@
                     </tr>
 
                     <tr>
-                        <td><?php echo "9"; ?> </td>
+                        <td><?php echo "8"; ?> </td>
                         <td><?php echo "We do not countercheck any details provided by the buyers and sellers. So, we will not be responsible for any wrong data. Our service will be limited only to connect buyers and sellers. All Further dealings will be not in our scope.We will not be responsible for any matters of interaction between the buyers and sellers." ; ?> </td>
                     </tr>
 

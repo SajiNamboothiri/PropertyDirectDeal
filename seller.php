@@ -49,10 +49,10 @@
                                     <input type="text" class="form-control" placeholder="Details"name="details" value=""required/>
                                 </div>
                                 <div class="form-group">
-                                    <input type="url" class="form-control" placeholder="Google Maps Link"name="map_link"/>
+                                    <input type="text" class="form-control" placeholder="Google Maps Link"name="map_link"/>
                                 </div>
                                 <div class="form-group">
-                                    <input type="url" class="form-control" placeholder="Video Link"name="video_link"/>
+                                    <input type="text" class="form-control" placeholder="Video Link"name="video_link"/>
                                 </div>
 
                                     <input type="submit" class="btnRegister" name="submit" value="Register"/> 
