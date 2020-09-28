@@ -54,7 +54,7 @@
 
                     <tr>
                         <td><?php echo "3"; ?> </td>
-                        <td><?php echo "Send Registration fees by google pay to our phone number 9746389999. As our opening offer, the registration fees will be only Rs 100 for a limited time. Later it will be Rs. 1000"; ?> </td>
+                        <td><?php echo "Send Registration fees by google pay to our phone number 9746389999. As our opening offer, the registration fees for buy/sell will be only Rs 100 for unlimited time. Later it will be Rs. 1000"; ?> </td>
                     </tr>
 
                     <tr>
@@ -64,7 +64,7 @@
 
                     <tr>
                         <td><?php echo "5"; ?> </td>
-                        <td><?php echo "You can click VIEW SELLERS / VIEW BUYERS button to view the existing database without contact details"; ?> </td>
+                        <td><?php echo "You can view the existing database without contact details"; ?> </td>
                     </tr>
 
                     <tr>
@@ -74,7 +74,7 @@
 
                     <tr>
                         <td><?php echo "7"; ?> </td>
-                        <td><?php echo "You have to pay only Rs.100 for each contact details you are interested in. You can pay by google pay to our phone number 9746389999 (For example, if you need the contact details of 3 entries, send Rs.300). But you have to register and pay the registration fees before sending this amount." ; ?> </td>
+                        <td><?php echo "You have to pay only Rs.100 for each contact details you are interested in. You can pay by google pay to our phone number 9746389999 (For example, if you need the contact details of 3 entries, send Rs.300). For rent/lease, charges will be only Rs 50 per contact. But you have to publish and pay the registration fees before sending this amount." ; ?> </td>
                     </tr>
 
                     <tr>
