@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     
-    <title>Available on Rent</title>
+    <title>List of Availability on Rent</title>
 
     <?php  include 'links.php'   ?>
     <?php  //include 'aaa.css'   ?>
@@ -18,7 +18,7 @@
 <body>
 
 <div class="main-div">
-    <h1>Available on Rent</h1>
+    <h1>List of Availability on Rent</h1>
 
     <div class=center-div>
 

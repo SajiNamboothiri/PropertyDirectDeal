@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     
-    <title>Required on Rent</title>
+    <title>List of Requirements on Rent</title>
 
     <?php  include 'links.php'   ?>
     <?php  //include 'aaa.css'   ?>
