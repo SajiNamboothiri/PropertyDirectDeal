@@ -35,8 +35,9 @@
                     <th>Id</th> 
                     <th>Name</th>
                     
-                    <th>location</th>
+                    <th>Available_location</th>
                     <th>Rent</th>
+                    <th>Deposit</th>
                     <th>Details</th>
                     
                      
@@ -63,8 +64,9 @@
                         <td><?php echo $res["Id"]; ?> </td>
                         <td><?php echo $res["Name"]; ?> </td>
                         
-                        <td><?php echo $res["Location"]; ?> </td>
+                        <td><?php echo $res["Available_Location"]; ?> </td>
                         <td><?php echo $res["Minimum_Rent"]; ?> </td>
+                        <td><?php echo $res["Deposit"]; ?> </td>
                         <td><?php echo $res["Details"]; ?> </td>
                         
                         
