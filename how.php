@@ -44,7 +44,7 @@
                        
                    <tr>
                         <td><?php echo "1"; ?> </td>
-                        <td><?php echo "Click on ADD BUYER / ADD SELLER "; ?> </td>
+                        <td><?php echo "Clicking your PUBLISH button, you can enter your property details."; ?> </td>
                     </tr>
 
                     <tr>
