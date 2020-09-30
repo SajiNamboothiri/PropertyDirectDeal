@@ -84,6 +84,11 @@
 
                     <tr>
                         <td><?php echo "9"; ?> </td>
+                        <td><?php echo "Please contact 9746389999 to make any edit of details or to remove from the database" ; ?> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td><?php echo "10"; ?> </td>
                         <td><?php echo "We do not countercheck any details provided by the buyers and sellers. So, we will not be responsible for any wrong data. Our service will be limited only to connect buyers and sellers. All Further dealings will be not in our scope.We will not be responsible for any matters of interaction between the buyers and sellers." ; ?> </td>
                     </tr>
 
