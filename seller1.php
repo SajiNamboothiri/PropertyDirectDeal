@@ -42,7 +42,7 @@
                                          
                                 </div>
                                 <div class="form-group">
-                                          <input type="text" class="form-control" placeholder="Deposit"name="deposit" value=""required/>
+                                          <input type="text" class="form-control" placeholder="Deposit"name="Deposit" value=""required/>
                                          
                                 </div>
                                 
@@ -87,11 +87,12 @@ if(isset($_POST['submit'])){
     $phone=$_POST['phone'];
     $location=$_POST['location'];
     $price=$_POST['price'];
+    $price=$_POST['Deposit'];
     $details=$_POST['details'];
     $map_link=$_POST['map_link'];
     $video_link=$_POST['video_link'];
     
-    $insertquery="INSERT INTO seller1(Name,Phone,Available_Location,Minimum_Rent,Deposit,Details,Google_Maps_Link,Video_Link)VALUES('$name','$phone','$location','$price','$Deposit'$details','$map_link','$video_link')";
+    $insertquery="INSERT INTO seller1(Name,Phone,Available_Location,Minimum_Rent,Deposit,Details,Google_Maps_Link,Video_Link)VALUES('$name','$phone','$location','$price','$Deposit','$details','$map_link','$video_link')";
 
 
     
