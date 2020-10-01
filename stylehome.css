@@ -62,9 +62,17 @@ img {
   box-shadow: var(--shadow);
 }
 
-.main-nav a:hover {
+/*.main-nav a:hover {
   background: var(--dark);
   color: var(--light);
+}*/
+
+.main-nav a:hover
+{
+  color: #255784;
+  background: #fe019a;
+  box-shadow: 0 0 10px #fad2ea, 0 0 40px #f87ac5, 0 0 80px  #fe019a;
+  transition-delay: .1s;
 }
 
 /* Top Container */

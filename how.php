@@ -54,42 +54,35 @@
 
                     <tr>
                         <td><?php echo "3"; ?> </td>
-                        <td><?php echo "Send Registration fees by google pay to our phone number 9746389999. As our opening offer, the registration fees for buy/sell will be only Rs 100 for unlimited time. Later it will be Rs. 1000"; ?> </td>
+                        <td><?php echo "We do not charge anything for the the entries from Oct 01 to Oct 10"; ?> </td>
                     </tr>
+
+                    
 
                     <tr>
                         <td><?php echo "4"; ?> </td>
-                        <td><?php echo "After receiving the registration fees, your details will be published."; ?> </td>
+                        <td><?php echo "You / opposite party can view the existing databases without contact details"; ?> </td>
                     </tr>
 
                     <tr>
                         <td><?php echo "5"; ?> </td>
-                        <td><?php echo "You can view the existing database without contact details"; ?> </td>
+                        <td><?php echo "Note down the ID numbers of your interested entries and message to our phone number 9746389999 to get the contact details"; ?> </td>
                     </tr>
 
+                    
                     <tr>
                         <td><?php echo "6"; ?> </td>
-                        <td><?php echo "Note down the ID numbers of your interested entries and message to our phone number 9746389999 to get the contact details"; ?> </td>
+                        <td><?php echo "If the seller has included the google maps link of the property location and video link to show the property while registration,<br> we will send you those links also. You can directly contact them and negotiate the deal." ; ?> </td>
                     </tr>
 
                     <tr>
                         <td><?php echo "7"; ?> </td>
-                        <td><?php echo "You have to pay only Rs.100 for each contact details you are interested in. You can pay by google pay to our phone number 9746389999 (For example, if you need the contact details of 3 entries, send Rs.300). For rent/lease, charges will be only Rs 50 per contact. But you have to publish and pay the registration fees before sending this amount." ; ?> </td>
-                    </tr>
-
-                    <tr>
-                        <td><?php echo "8"; ?> </td>
-                        <td><?php echo "We will send you the contact details to your registered mobile number within 24 hours. If the seller has included the google maps link of the property location and video link to show the property while registration, we will send you those links also. You can directly contact them and negotiate the deal." ; ?> </td>
-                    </tr>
-
-                    <tr>
-                        <td><?php echo "9"; ?> </td>
                         <td><?php echo "Please contact 9746389999 to make any edit of details or to remove from the database" ; ?> </td>
                     </tr>
                     
                     <tr>
-                        <td><?php echo "10"; ?> </td>
-                        <td><?php echo "We do not countercheck any details provided by the buyers and sellers. So, we will not be responsible for any wrong data. Our service will be limited only to connect buyers and sellers. All Further dealings will be not in our scope.We will not be responsible for any matters of interaction between the buyers and sellers." ; ?> </td>
+                        <td><?php echo "8"; ?> </td>
+                        <td><?php echo "We do not countercheck any details provided by the buyers and sellers. So, we will not be responsible for any wrong data. <br>Our service will be limited only to connect buyers and sellers. All Further dealings will be not in our scope.<br>We will not be responsible for any matters of interaction between the buyers and sellers." ; ?> </td>
                     </tr>
 
                 
