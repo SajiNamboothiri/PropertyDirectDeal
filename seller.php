@@ -57,6 +57,7 @@
 
                                     <input type="submit" class="btnRegister" name="submit" value="Register"/> 
                                     <a href="shortlistforseller.php">View Buyers </a>
+                                    
                                     <a href="how.php">Get Contact Details of Buyers </a>
                                     
                                                        
@@ -95,7 +96,7 @@ if(isset($_POST['submit'])){
     if($res){
         ?>
         <script>
-            alert("Your details have been inserted in the database. Please click on 'Get Contact Details of Buyers' button to proceed further.");
+            alert("Your details have been inserted in the database. It will be published after our review. (Pls call 9746389999 for immediate review). Please click on 'Get Contact Details of Buyers' button to proceed further.");
         </script>
         <?php
     }

@@ -46,7 +46,7 @@
                                     <!--<input type="submit" class="btnRegister" onclick="how.php" name="submit" value="Register"/>-->
                                     <!--<input type="submit" class="btnRegister" onclick="how.php" name="submit" value="Register"/>-->
                                     <input type="submit" class="btnRegister"  name="submit" value="Register"/> 
-                                    <a href="shortlistforbuyer.php">View Sellers </a>
+                                    <a href="shortlistforbuyer.php">View Sellers </a>                                    
                                     <a href="how.php">Get Contact Details of Sellers </a>        
                          
                             </div>
@@ -87,7 +87,7 @@ if(isset($_POST['submit'])){
     if($res){
         ?>
         <script>
-            alert("Your details have been inserted in the database. Please click on 'Get Contact Details of Sellers' button to proceed further.");
+            alert("Your details have been inserted in the database. It will be published after our review. (Pls call 9746389999 for immediate review). Please click on 'Get Contact Details of Sellers' button to proceed further.");
         </script>
         <?php
     }
