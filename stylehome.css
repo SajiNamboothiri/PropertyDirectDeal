@@ -28,9 +28,9 @@ body {
 /*#read{
   background-color: #ffffff;
   color: black;
-  font-weight: bold;
+  font-weight: bold;*/
   
-}*/
+}
 
 img {
   max-width: 100%;
@@ -109,7 +109,7 @@ img {
 .showcase p {
   font-size: 1.3rem;
   margin-top: 20;
-  color: var(--primary);
+  color: var(--light);
 }
 
 /* Top Box */
