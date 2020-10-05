@@ -54,7 +54,9 @@
         border-radius: 5px;
         padding: 10px;
         display: inline-block;
-        margin-left: 5px;
+        margin: 20px;
+        
+        
         
     }
 
@@ -65,7 +67,7 @@
         margin-left: 5px;
         margin-top: 20px;
         margin-right: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
         display: inline-block;
         font-style: italic;
         font-weight: bold;

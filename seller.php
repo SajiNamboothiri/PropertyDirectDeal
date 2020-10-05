@@ -57,7 +57,7 @@
 
                                     <input type="submit" class="btnRegister" name="submit" value="Register"/> 
                                     <a href="shortlistforseller.php">View Buyers </a>
-                                    
+                                    <a href="shortlistforbuyer.php">View Sellers </a>
                                     <a href="how.php">Get Contact Details of Buyers </a>
                                     
                                                        
