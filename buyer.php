@@ -44,8 +44,8 @@
                                     </div>
                            
                                     <!--<input type="submit" class="btnRegister" onclick="how.php" name="submit" value="Register"/>-->
-                                    <!--<input type="submit" class="btnRegister" onclick="how.php" name="submit" value="Register"/>-->
-                                    <input type="submit" class="btnRegister"  name="submit" value="Register"/> 
+                                    <!--<input type="submit" class="btnRegister" onclick="how.php" name="submit" value="Register Free"/>-->
+                                    <input type="submit" class="btnRegister"  name="submit" value="Register Free"/> 
                                     <a href="shortlistforbuyer.php">View Sellers </a>                                    
                                     <a href="how.php">Get Contact Details of Sellers </a>        
                          

@@ -4,8 +4,8 @@
     background-color: #B3E5FC;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     
     }
     
@@ -21,10 +21,13 @@
            
     
      h1{
-        padding-top: 20px;
+        padding-top: 20px;        
+    }
+    h4{
+        margin-left: 100px;
     }
 
-    table{
+       table{
         border-collapse: collapse;
         background-color: #fff;
         box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
@@ -64,17 +67,45 @@
     
     a{
         color: #ffffff;
-        display: inline-block;
-        margin-top: 50px;
-        margin-left: 50%;
+        display: inline;
+        margin-top: 150px;
+        margin-left: 5px;
+        /*margin-left: 50%;*/
         background-color: rgb(51, 6, 250);
         font-style: italic;
         font-weight: bold;
         font-size: 20px;
         border-radius: 5px;
         padding: 10px;
-        display: inline-block;
         
+        
+    }
+
+    .btnRegister{
+
+        background-color: rgb(51, 6, 250);
+        color: #ffffff;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        display: inline;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 7px;
+    }
+
+    #clear{
+        margin-left: 5px;
+    }
+
+        
+
+    .form-control{
+        line-height: 40px;
+        height: fit-content;
+        width: 100%;
     }
     
     

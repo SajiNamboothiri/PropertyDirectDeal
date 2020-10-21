@@ -45,7 +45,7 @@
                            
                                     <!--<input type="submit" class="btnRegister" onclick="how.php" name="submit" value="Register"/>-->
                                     <!--<input type="submit" class="btnRegister" onclick="how.php" name="submit" value="Register"/>-->
-                                    <input type="submit" class="btnRegister"  name="submit" value="Register"/> 
+                                    <input type="submit" class="btnRegister"  name="submit" value="Register Free"/> 
                                     <a href="shortlistforbuyer1.php">View Availability </a>
                                     <a href="how.php">Get Contact Details for Availability </a>        
                          

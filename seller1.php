@@ -60,7 +60,7 @@
                                     <input type="text" class="form-control" placeholder="Video Link"name="video_link"/>
                                 </div>
 
-                                    <input type="submit" class="btnRegister" name="submit" value="Register"/> 
+                                    <input type="submit" class="btnRegister" name="submit" value="Register Free"/> 
                                     <a href="shortlistforseller1.php">View Requirements </a>
                                     <a href="how.php">Get Contact Details for Requirements </a>
                                     
