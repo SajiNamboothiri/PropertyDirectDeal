@@ -61,7 +61,7 @@
             
                 <?php
                     include'connection.php';
-                    $selectquery="select * from MBSdata where hide=0";
+                    $selectquery="select * from mbsdata where hide=0";
                     $query=mysqli_query($con,$selectquery);
                     #nums=mysqli_num_rows($query);
                     while($res=mysqli_fetch_array($query)){
@@ -103,6 +103,11 @@
         
 
         </div>
+        
+        <div>
+            <h4>.</h4>
+        </div>
+        
         <a href="mbsdata.php">Insert New Data</a>
         <a href="mbsshowsearchresults.php">Search Database</a>
     </div>

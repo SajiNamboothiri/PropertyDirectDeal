@@ -22,7 +22,7 @@
 
         <div class="main-div">
 
-            <h4>Search(Type any portion of your shakha name)</h4>
+            <h4>Search</h4>
             
 
                 <form class="form-horizontal" action="mbsshowsearchresults.php" method="POST">
@@ -30,12 +30,19 @@
 
                         
                         
-                        <input type="text" class="form-control" placeholder="Search by Shakha" name="shakha" value=""/>
+                        <input type="text" class="form-control" placeholder="Type any portion to search" name="term" value=""/>
                         
                      
-                        <input type="submit" class="btnRegister"  name="submit" value="Search"/>
-                        <a href='mbsdata.php'>Insert New Data</a>
-                        <a href='mbsshowdata.php'>View Full Database</a>
+                        <input type="submit" class="btnRegister"  name="name" value="Name"/>
+                        <input type="submit" class="btnRegister"  name="illom" value="Illom"/>
+                        <input type="submit" class="btnRegister"  name="shakha" value="Shakha"/>
+                        <input type="submit" class="btnRegister"  name="district" value="District"/>
+                        <input type="submit" class="btnRegister"  name="bloodgroup" value="Blood_Group"/>
+                        <input type="submit" class="btnRegister"  name="yearofbirth" value="Year_of_Birth"/>
+                        <input type="submit" class="btnRegister"  name="qualification" value="Qualification"/>
+                        
+                        <a href='mbsdata.php'>Insert_New_Data</a>
+                        <a href='mbsshowdata.php'>View_Full_Database</a>
                         <input type="submit" class="btnRegister" name="clear" value="Clear" id="clear"/>
 
                     </div>
@@ -79,45 +86,39 @@
 
                             <?php
 
+                                include 'connection.php';                               
+                                
+                                $term="^%&";                                
+
+                                if(isset($_POST['clear'])){$term="^%&";
+                                    $query = "SELECT * FROM mbsdata WHERE name LIKE '%$term%'";}
+                                
+                                elseif(isset($_POST['name'])) {$term=$_POST['term'];                                
+                                $query = "SELECT * FROM mbsdata WHERE name LIKE '%$term%'";}
                                 
 
+                                elseif(isset($_POST['illom'])) {$term=$_POST['term'];                                
+                                $query = "SELECT * FROM mbsdata WHERE illom LIKE '%$term%'";}
 
-                                include 'connection.php';
+                                elseif(isset($_POST['shakha'])) {$term=$_POST['term'];                              
+                                $query = "SELECT * FROM mbsdata WHERE shakha LIKE '%$term%'";}
 
-                                
-                                
-                                $shakha="^%&";
-                                
+                                elseif(isset($_POST['district'])) {$term=$_POST['term'];                              
+                                $query = "SELECT * FROM mbsdata WHERE district LIKE '%$term%'";}
 
-                                if(isset($_POST['clear']))
-                                {
-                                   
-                                    
-                                    $shakha="^%&";
-                                     
-                                }
+                                elseif(isset($_POST['bloodgroup'])) {$term=$_POST['term'];                              
+                                $query = "SELECT * FROM mbsdata WHERE bloodgroup LIKE '%$term%'";}
 
+                                elseif(isset($_POST['yearofbirth'])) {$term=$_POST['term'];                             
+                                $query = "SELECT * FROM mbsdata WHERE yearofbirth LIKE '%$term%'";}
 
-                                
-                                if(isset($_POST['submit']))
-
-                                {
- 
-                                                            
-                                    
-                                    $shakha=$_POST['shakha'];
-                                    
-
-                                }
+                                elseif(isset($_POST['qualification'])) {$term=$_POST['term'];                               
+                                $query = "SELECT * FROM mbsdata WHERE qualification LIKE '%$term%'";}
 
                                 
-                                
-                                    $query = "SELECT * FROM MBSdata WHERE 
-                                     
-                                     
-                                    shakha LIKE '%$shakha%'";
 
-                                    $data = mysqli_query($con, $query) or die('error');
+                                
+                                    $data = mysqli_query($con, $query) or die('');
 
                                     while($row = mysqli_fetch_assoc($data))
                                     {

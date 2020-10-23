@@ -26,15 +26,34 @@
                                     
                                     
                                     <div class="form-group">
-                                     <input type="text" class="form-control" placeholder="Mobile"name="phone" value=""required/>
+                                     <input type="text" class="form-control" placeholder="Mobile"name="phone" value=""/>
                                     </div>
 
                                     <div class="form-group">
-                                     <input type="text" class="form-control" placeholder="LandPhone"name="landphone" value=""required/>
+                                     <input type="text" class="form-control" placeholder="LandPhone"name="landphone" value=""/>
                                     </div>
 
                                     <div class="form-group">
-                                     <input type="text" class="form-control" placeholder="District"name="district" value=""required/>
+                                     
+                                    <select name="district">
+                                    <option value="">Select your District</option>
+
+                                    <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                                    <option value="Kollam">Kollam</option>
+                                    <option value="Pathanamthitta">Pathanamthitta</option>
+                                    <option value="Alappuzha">Alappuzha</option>
+                                    <option value="Kottayam">Kottayam</option>
+                                    <option value="Idukki">Idukki</option>
+                                    <option value="Ernakulam">Ernakulam</option>
+                                    <option value="Thrissur">Thrissur</option>
+                                    <option value="Palakkad">Palakkad</option>
+                                    <option value="Malappuram">Malappuram</option>
+                                    <option value="Kozhikkod">Kozhikkod</option>
+                                    <option value="Wayanad">Wayanad</option>
+                                    <option value="Kannur">Kannur</option>
+                                    <option value="Kasargod">Kasargod</option>
+                                    </select>
+
                                     </div>
 
 
@@ -46,7 +65,7 @@
                                     
                                     
                                     <div class="form-group">
-                                       <input type="text" class="form-control" placeholder="Illom"name="illom" value=""required/>
+                                       <input type="text" class="form-control" placeholder="Illom"name="illom" value=""/>
                                     </div>
                                     
                                     <div class="form-group">
@@ -78,8 +97,23 @@
                                     
                                     
                                     <div class="form-group">
-                                     <input type="text" class="form-control" placeholder="Blood_Group"name="bloodgroup" value=""/>
+                                     
+                                    <select name="bloodgroup">
+                                    <option value="">Select your Blood Group</option>
+
+                                    <option value="a+">A+</option>
+                                    <option value="a-">A-</option>
+                                    <option value="b+">B+</option>
+                                    <option value="b-">B-</option>
+                                    <option value="o+">O+</option>
+                                    <option value="o-">O-</option>
+                                    <option value="ab+">AB+</option>
+                                    <option value="ab-">AB-</option>
+                                    
+                                    </select>
+
                                     </div>
+
                                     
                                     
                                     <h6>Names of first relatives:</h6>
@@ -103,12 +137,12 @@
                                     </div>
                                     
                                     
-                                    
-                                    <input type="submit" class="btnRegister"  name="submit" value="Submit"/> 
-                                    
-                                    <a href="mbsshowdata.php">View Database </a>                                 
-                                    <a href="mbsshowsearchresults.php">Search Database </a>
-                                            
+                                    <div class="botbuttons">
+                                        <input type="submit" class="btnRegister"  name="submit" value="Submit"/> 
+                                        
+                                        <a href="mbsshowdata.php">View Database </a>                                 
+                                        <a href="mbsshowsearchresults.php">Search Database </a>
+                                    </div>      
                          
                             </div>
                         </div>
@@ -152,7 +186,7 @@ if(isset($_POST['submit'])){
     
 
     
-    $insertquery="INSERT INTO MBSdata(name,phone,landphone,district,shakha,illom,ammathuillom,yearofbirth,qualification,whatareyoudoing,moredetailsaboutyou,bloodgroup,fathermother,wife,brotherssisters,children)VALUES('$name','$phone','$landphone','$district','$shakha','$illom','$ammathuillom','$yearofbirth','$qualification','$whatareyoudoing','$moredetailsaboutyou','$bloodgroup','$fathermother','$wife','$brotherssisters','$children')";
+    $insertquery="INSERT INTO mbsdata(name,phone,landphone,district,shakha,illom,ammathuillom,yearofbirth,qualification,whatareyoudoing,moredetailsaboutyou,bloodgroup,fathermother,wife,brotherssisters,children)VALUES('$name','$phone','$landphone','$district','$shakha','$illom','$ammathuillom','$yearofbirth','$qualification','$whatareyoudoing','$moredetailsaboutyou','$bloodgroup','$fathermother','$wife','$brotherssisters','$children')";
 
 
     

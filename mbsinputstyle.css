@@ -26,7 +26,7 @@
     h3{
         font-size: 30px;
         color:white;
-        text-align: left;
+        
         margin-top: 5px;
         text-align: center;
         margin-bottom: 5px;
@@ -54,7 +54,7 @@
         border-radius: 5px;
         padding: 10px;
         display: inline-block;
-        margin: 20px;
+        margin: 5px;
         
         
     }
@@ -63,8 +63,8 @@
 
         background-color: rgb(51, 6, 250);
         color: #ffffff;
-        margin-left: 100px;
-        margin-top: 20px;
+        margin-left: 5px;
+        margin-top: 5px;
         margin-right: 0px;
         margin-bottom: 5px;
         display: inline-block;
@@ -79,6 +79,71 @@
         line-height: 40px;
         height: fit-content;
         width: 100%;
+    }
+    
+    a:hover
+{
+  color: #255784;
+  background: #fe019a;
+  box-shadow: 0 0 10px #fad2ea, 0 0 40px #f87ac5, 0 0 80px  #fe019a;
+  transition-delay: .1s;
+}
+.btnRegister:hover
+{
+  color: #255784;
+  background: #fe019a;
+  box-shadow: 0 0 10px #fad2ea, 0 0 40px #f87ac5, 0 0 80px  #fe019a;
+  transition-delay: .1s;
+}
+
+.botbuttons{
+        
+        margin-left: 40%;
+        
+    }
+
+@media (max-width: 750px) 
+    {
+        .form-control{
+            line-height: 20px;
+            height: fit-content;
+            width: 100%;
+        }
+        
+        .col-md-12{
+    
+        
+        height: 100%;
+        
+        
+        }
+        
+    .btnRegister{
+        
+       font-size: 15px;
+       display: inline;
+       padding: 2px;
+    }
+    a{
+        color: #ffffff;
+        background-color: rgb(51, 6, 250);
+        font-style: italic;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 5px;
+        padding: 2px;
+        display: inline-block;
+        margin: 5px;
+        
+        
+    }
+    
+    .botbuttons{
+        
+        margin-left: 7%;
+        
+    }
+           
     }
 
      
